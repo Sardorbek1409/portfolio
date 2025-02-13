@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.card{
+    width: 450px;
+    height: 450px;
+    background-color: aliceblue;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.card h1{
+    font-size: 400px;
+    position: absolute;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+.d{
+    left: 37%;
+}
+.c{
+    right: 38%;
+}
+.img{
+    height: 50px;
+
+}
+.star{
+    position: absolute;
+    height: 50px;
+    left: 58%;
+    top: 42%;
+}
+h3{
+    position: absolute;
+    left: 45%;
+    bottom: 30%;
+}
+h2{
+    position: absolute;
+    left: 46.5%;
+    bottom: 26%;
+}

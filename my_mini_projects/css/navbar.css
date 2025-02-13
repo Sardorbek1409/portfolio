@@ -1,0 +1,102 @@
+/* main_section */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    min-height: 100vh;
+}
+/* main_section */
+/* sub_section */
+.box1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 6vh;
+    background-color: #4c4c4c;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #cccccc;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 350px;
+    height: 550px;
+    background-color: #4c4c4c;
+    margin: 10px 10px;
+    border: 10px double white;
+    border-radius: 20px;
+}
+
+
+a{
+    background-color: #4c4c4c;
+    padding: 6px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 1s;
+}
+.card a{
+    border: 2px solid white;
+}
+.box2 a{
+    margin-top: 20px;
+}
+h1{
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    color: antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+
+
+body a.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    background-color: #4c4c4c;
+    font-size: 50px;
+}
+/* sub_section */
+
+/* hover_section */
+
+.box1 a:hover{
+    background-color: floralwhite;
+    color: #4c4c4c;
+}
+.box2 a:hover{
+    background-color: floralwhite;
+    color: #4c4c4c;
+}
+
+body a.img:hover{
+    background: url("./hd-a5u9zq0a0ymy2dug.jpg") no-repeat;
+    background-size: cover;
+}
+/* hover_section */

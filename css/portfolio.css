@@ -1,0 +1,733 @@
+/* main section styles */
+.main_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3.75rem;
+}
+
+.main_section > div {
+    width: 45%;
+    float: left;
+}
+
+/* .main_section_info{
+    border: 1px solid fuchsia;
+} */
+
+.main_section_image{
+    text-align: center;
+    /* border: 1px solid blue; */
+}
+
+.main_section_image img{
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.main_section_welcome{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+    letter-spacing: 2px;
+    color: #797979;
+    animation-name: left_anime;
+    animation-duration: 2s;
+}
+.main_section_introduction{
+    margin-top: 1.25rem;
+    font-size: 3.75rem;
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+    color: blue;
+    animation-name: left_anime;
+    animation-duration: 2s;
+    /* border: 1px solid red; */
+}
+
+.main_section_position{
+    color: blue;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1.25rem;
+    animation-name: left_anime;
+    animation-duration: 2s;
+    /* border: 1px solid red; */
+}
+
+.main_section_action{
+    margin-top: 1.875rem;
+}
+
+.main_section_image img{
+    width: 90%;
+    margin-top: 30px;
+    filter: drop-shadow(10px 7px 10px black);
+    /* border: 1px solid red; */
+}
+
+.main_section_social_network a{
+    text-decoration: none;
+    font-size: 1.625rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+
+.main_section_social_network i.active{
+    animation-name: left_anime;
+}
+.main_section_social_network .fa-telegram{
+    color: blue;
+    animation-duration: 1s;
+    /* border: 1px solid red; */
+}
+.main_section_social_network .fa-youtube{
+    color: red;
+    animation-duration: 1.5s;
+    /* border: 1px solid red; */
+}
+.main_section_social_network .fa-facebook{
+    color: rgb(39, 39, 165);
+    animation-duration: 2s;
+    /* border: 1px solid red; */
+}
+.main_section_social_network .fa-twitter{
+    color: rgb(1, 187, 255);
+    animation-duration: 2.5s;
+    /* border: 1px solid red; */
+}
+.main_section_social_network .fa-whatsapp{
+    color: green;
+    animation-duration: 3s;
+    /* border: 1px solid red; */
+}
+/* Statistics section */
+.statistics_section{
+    margin-top: 3.125rem;
+}
+
+.statistics{
+    padding-top: 6.25rem;
+}
+
+.statistics_item{
+    display: inline-block;
+    background-color: rgb(253, 250, 250);
+    /* background: linear-gradient(red, blue, red); */
+    text-align: center;
+    width: 10rem;
+    height: 10rem;
+    padding: 0.32rem 0.625rem;
+    margin-right: 1.25rem;
+    border-radius: 50%;
+    transition: 0.5s;
+    animation-name: left_anime, rotate;
+    /* animation-duration: 2s; */
+    /* border: 1px solid red; */
+}
+
+.statistics_item_1{
+    animation-duration: 1s;
+}
+.statistics_item_2{
+    animation-duration: 2s;
+}
+.statistics_item_3{
+    animation-duration: 3s;
+}
+
+.statistics_number{
+    font-size: 2.5rem;
+    margin-bottom: 0.32rem;
+    color: blue;
+    /* color: #797979; */
+}
+
+.statistics_title{
+    font-size: 1rem;
+    color: #797979;
+    font-weight: 300;
+}
+
+.statistics_item:hover{
+    background-color: blue;
+    color: aliceblue;
+    transition: 0.5s;
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25), 
+    /* 10px 10px 70px rgba(0, 0, 0, 0.25),  */
+    /* inset 5px 5px 20px rgba(255, 255, 255, 0.25), */
+    inset -5px -5px 15px rgba(0, 0, 0, 0.75);
+}
+
+.statistics_item:hover h3, .statistics_item:hover p{
+    color: white;
+}
+
+/* /Statistics section */
+
+/* Responsiv main and statistics sections */
+/* @media (min-width: 380px) {
+} */
+/* /Responsiv main and statistics sections */
+
+
+
+
+
+
+/* Animation */
+@keyframes left_anime{
+    0%{
+        margin-left: -400px;
+    }
+    100%{
+        margin-left: 0;
+    }
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(720deg);
+    }
+}
+/* Animation */
+/* /main section styles */
+
+
+
+
+/* About me section */
+.about_me{
+    padding-top: 3.75rem;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_me > div{
+    width: 45%;
+    float: left;
+}
+
+.aboutme_info{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 50px;
+    box-sizing: border-box;
+}
+
+.aboutme_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+    /* border: 1px solid red; */
+}
+
+.about_me .aboutme_image img{
+    width: 90%;
+    border-radius: 3rem;
+    transition: 0.5s;
+    filter: drop-shadow(10px 7px 10px black);
+}
+
+.about_me .aboutme_image img:hover{
+    box-shadow: 10px 7px 10px white;
+}
+
+.aboutme_action{
+    margin-top: 2.5rem;
+}
+/* /About me section */
+
+/* Education section */
+
+.education{
+    position: relative;
+    padding-top: 3.75rem;
+    /* border: 1px solid red; */
+}
+
+.education_data{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.education_cards{
+    width: 80%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.education_card{
+    box-sizing: border-box;
+    width: 30%;
+    padding: 3.75rem 1.87rem;
+    background-color: #F8FAFF;
+    text-align: center;
+    border-radius: 20px;
+    transition: 0.5s;
+    border: 1px solid blue;
+}
+
+.education h2{
+    margin-top: 0.625rem;
+}
+
+.education_card .education_image{
+    width: 150px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.education_card_title{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #05364D;
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.education_card_description{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.75rem;
+    color: #797979;
+    transition: 0.5s;
+}
+
+.education_card_link{
+    color: #05364D;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.education_card:hover{
+    background-color: #5f30ff;
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25), 
+    10px 10px 70px rgba(0, 0, 0, 0.25), 
+    inset 5px 5px 20px rgba(255, 255, 255, 0.25),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.75);
+}
+
+.education_card:hover .education_image{
+    filter: drop-shadow(10px 7px 10px white);
+}
+
+.education_card:hover .education_card_title,
+.education_card:hover .education_card_description,
+.education_card:hover .education_card_link{
+    color: white;
+}
+
+/* /Education section */
+
+/* Teachers section */
+
+.teachers{
+    padding-top: 3.75rem;
+}
+
+.teachers_items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teachers_items > div{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.teacher_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teacher_image img{
+    width: 60%;
+}
+
+.teacher_item_info{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teacher_name{
+    font-size: 3rem;
+    padding-bottom: 0.25rem;
+}
+
+.teacher_item_position{
+    font-size: 1.75rem;
+    font-weight: 300;
+    color: #5b6d75;
+}
+
+.teacher_projects{
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.75rem;
+    color: #5b6d75;
+}
+
+.teacher_projects a{
+    text-decoration: none;
+    color: #5b6d75;
+}
+
+/* /Teachers section */
+
+
+
+/* My projects section */
+.myprojects{
+    padding-top: 3.75rem;
+}
+
+.myprojects_items_card{
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.myprojects_change_items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 60vh;
+    /* border: 1px solid red; */
+}
+
+.myprojects_items{
+    position: relative;
+    /* border: 1px solid red; */
+    margin: 3rem 2.5rem;
+}
+
+.items_w{
+    width: 500px;
+}
+
+.items_h{
+    width: 300px;
+    /* border: 1px solid red; */
+}
+
+.myprojects_item .image_h{
+    width: 100%;
+    border-radius: 20px;
+    /* border: 1px solid aquamarine; */
+}
+
+.myprojects_item .image_w{
+    width: 500px;
+    border-radius: 20px;
+}
+
+.myprojects_items .myprojects_item_overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(14, 169, 186, 0.773);
+    border-radius: 20px;
+    visibility: hidden;
+    transition: 1s;
+}
+
+.myprojects_item_info{
+    position: absolute;
+    bottom: 2rem;
+    left: 1rem;
+    color: white;
+    visibility: hidden;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.myprojects_item_info a{
+    color: white;
+    text-decoration: none;
+}
+
+.myprojects_item:hover .myprojects_item_overlay{
+    visibility: visible;
+    top: 1.25rem;
+    left: 1.25rem;
+    transition: 1s;
+}
+
+.myprojects_item:hover .myprojects_item_info{
+    bottom: 0.25rem;
+    left: 3rem;
+    visibility: visible;
+    transition: 1s;
+}
+
+.myprojects_items_card button{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #FFD805;
+}
+
+.myprojects_items_card button:active{
+    margin-bottom: 5px;
+    box-shadow: 0 0 5px 3px rgb(0, 0, 0);
+}
+
+.myprojects_items_card button i{
+    font-size: 2.5rem;
+}
+
+.myprojects_items_card button:active i{
+    font-size: 2rem;
+}
+
+.myprojects marquee h4{
+    display: inline-block;
+    padding: 0.125rem 10rem;
+    margin-right: 12.5rem;
+    background-color: #FFD805;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.myprojects marquee h4:hover{
+    border: 2px solid #FFD805;
+    background-color: black;
+    /* padding: 0rem 9.25rem; */
+}
+
+.myprojects marquee h4:hover a{
+    color: #FFD805;
+}
+
+.myprojects marquee a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Partners section */
+.container_partners{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+         /* width: 100%;
+        min-height: 100vh; */
+}
+.partners{
+    padding-top: 3.75rem;
+}
+
+.partners{
+    padding-top: 3.75rem;
+}
+
+.partners_cards{
+    position: relative;
+    width: 90%;
+    height: 70vh;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.partners_card{
+    padding-top: 10px;
+    margin: 0 5%;
+    /* border: 1px solid blue; */
+    width: 20%;
+    height: 80%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #3333;
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25), 
+    10px 10px 70px rgba(0, 0, 0, 0.25), 
+    inset 5px 5px 20px rgba(255, 255, 255, 0.25),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.75);
+}
+
+.partners_card_m{
+    width: 24%;
+    height: 90%;
+}
+
+.partners_card_m .partners_img{
+    height: 55%;
+}
+
+.partners_img{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid red; */
+}
+
+.partners_items{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    padding: 0 10px;
+    /* border: 1px solid violet; */
+}
+
+.partners_img img{
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.partners_rate i.active{
+    color: rgb(226, 176, 12);
+}
+
+.partners_cards button{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50%;
+    /* border-style: none; */
+}
+
+
+.partners_cards button > i{
+    position: absolute;
+    font-size: 30px;
+}
+
+.partners_cards button:active i{
+    font-size: 28px;
+    margin-top: 1px;
+}
+
+/* .partners_cards{
+    margin-left: 5%;
+    width: 90%;
+    height: 70vvh;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 18rem 18rem 18rem;
+    grid-template-rows: 20rem 20rem 20rem;
+    column-gap: 6.25rem;
+    row-gap: 3.12rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners_cards button{
+    width: 2rem;
+    height: 2.5rem;
+}
+
+.partners_card{
+    position: relative;
+    padding-top: 1rem;
+    width: 18.75rem;
+    height: 25rem;
+    border: 1px solid blue;
+}
+
+.partners_card > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.partners_rate i.active{
+    color: #FFD805;
+}
+
+.partners_img img{
+    width: 12.50rem;
+    border-radius: 50%;
+    border: 1px solid rgb(239, 220, 10);
+}
+
+.partnerscard_action{
+    width: 12rem;
+    height: 3rem;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partnerscard_action .span{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: #FFD805;
+    margin: 0 1rem;
+}
+
+.cards_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 1px solid red;
+    width: 1200px;
+    height: 60vh;
+    }
+.card{
+    position: absolute;
+    width: 220px;
+    height: 300px;
+    border: 1px solid black;
+    transition: 2s;
+    text-align: center;
+} */
+
+
+
+
+@media (max-width: 600px){
+    html{
+        font-size: 5px;
+    }
+}

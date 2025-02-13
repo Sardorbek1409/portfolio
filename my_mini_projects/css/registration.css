@@ -1,0 +1,131 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background: url(../images/bg_registration.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.register_card{
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgb(157, 154, 154);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    /* background: linear-gradient(#9a3dcc, #6d31c4); */
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.07);
+    padding: 10px;
+}
+h1{
+    color: aliceblue;
+}
+.username{
+    width: 300px;
+    height: 30px;
+    /* border: 2px solid blue; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.username input{
+    border: 3px solid white;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+.username i{
+    position: absolute;
+    top: 25%;
+    left: 85%;
+}
+.password{
+    width: 300px;
+    height: 30px;
+    /* border: 2px solid blue; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.password input{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 25px;
+    padding: 5px 10px;
+    border: 3px solid white;
+}
+.password i{
+    position: absolute;
+    top: 25%;
+    left: 85%;
+}
+
+.help{
+    width: 300;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    margin: 5px 0px;
+    padding: 5px 10px;
+}
+.help label{
+    color:aliceblue;
+    margin-right: 50px;
+}
+.help a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.register_card button{
+    width: 300px;
+    height: 40px;
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+}
+.button{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button label{
+    color: aliceblue;
+}
+.button a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+/* hover */
+.register_card input:hover{
+    border: 3px solid #6d31c4;
+}
+.register_card button:hover{
+    border: 3px solid #6d31c4;
+}

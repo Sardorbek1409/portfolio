@@ -1,0 +1,193 @@
+/* main_section */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("../images/phone_led.jpg");
+    background-size: cover;
+    flex-direction: column;
+}
+.box {
+    position: relative;
+    width: 1800px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* main_section */
+
+/* section */
+.samsung_card {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 5px solid #f858f0;
+    width: 250px;
+    height: 400px;
+    background: url("../images/phone_bg.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 3s;
+    
+}
+.iphone_card{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 5px solid #f858f0;
+    width: 250px;
+    height: 400px;
+    background: url("../images/phone_bg.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 3s;
+}
+.redmi_card{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 5px solid #f858f0;
+    width: 250px;
+    height: 400px;
+    background: url("../images/phone_bg.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 3s;
+}
+h1{
+    color:#3bfdf4;
+    font-weight: 900px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 3s;
+}
+p{
+    color: #3bfdf4;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding: 5px;
+    transition: 3s;
+}
+.samsung_card a{
+    border: 2px solid #3bfdf4;
+    color: #3bfdf4;
+    background-color: #f858f0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: 3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.iphone_card a{
+    border: 2px solid #3bfdf4;
+    color: #3bfdf4;
+    background-color: #f858f0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: 3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.redmi_card a{
+    border: 2px solid #3bfdf4;
+    color: #3bfdf4;
+    background-color: #f858f0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: 3s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* section */
+
+/* hover_section */
+.samsung_card:hover{
+    background: url("../images/s23_ultra_black.jpg") no-repeat;
+    background-size: cover;
+    border-color:#3bfdf4;
+}
+.iphone_card:hover{
+    background: url("../images/iphone-15-black.jpeg") no-repeat;
+    background-size: cover;
+    border-color:#3bfdf4;
+}
+.redmi_card:hover{
+    background: url("../images/RedmiK50.jpg") no-repeat;
+    background-size: cover;
+    border-color:#3bfdf4;
+}
+.samsung_card:hover h1{
+    color: #f858f0;
+}
+.iphone_card:hover h1{
+    color: #f858f0;
+}
+.redmi_card:hover h1{
+    color: #f858f0;
+}
+.samsung_card:hover p{
+    color: #f858f0;
+}
+.iphone_card:hover p{
+    color: #f858f0;
+}
+.redmi_card:hover p{
+    color: #f858f0;
+}
+.samsung_card:hover a{
+    color: #f858f0;
+    background-color: #3bfdf4;
+    border: 2px solid #f858f0;
+}
+.iphone_card:hover a{
+    color: #f858f0;
+    background-color: #3bfdf4;
+    border: 2px solid #f858f0;
+}
+.redmi_card:hover a{
+    color: #f858f0;
+    background-color: #3bfdf4;
+    border: 2px solid #f858f0;
+}
+/* hover_section */
+/* section_2 */
+
+.advertisement{
+    margin-top: 5px;
+    border: 5px solid;
+    border-color: #f858f0 #3bfdf4 #3bfdf4 #f858f0;
+    color: white;
+    padding: 10px 30px;
+    background-size: cover;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s;
+}
+
+.advertisement:hover{
+    color: white;
+    border-color: #3bfdf4 #f858f0 #f858f0 #3bfdf4;
+}
+
+/* section_2 */

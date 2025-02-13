@@ -1,0 +1,131 @@
+/* main_section */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* main_section */
+
+/* Contener */
+
+.cont{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont .shelf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    position: absolute;
+    width: 760px;
+    height: 550px;
+    background-color: aqua;
+}
+
+/* Contener */
+
+/* Contener item */
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #333;
+    width: 380px;
+    height: 550px;
+    transition: 1.5s;
+    z-index: 99;
+    color: #333;
+    font-size: 30px;
+}
+.left_door{
+    border-radius: 20px 0px 0px 20px;
+    left: 0px;
+}
+.right_door{
+    border-radius: 0px 20px 20px 0px;
+    right: 0px;
+}
+
+/* Contener item */
+
+/* Card style */
+
+.shelf div{
+    /* position: absolute; */
+    width: 200px;
+    height: 400px;
+    background-color: #333;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 1s;
+}
+.card_c{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/* Card style */
+
+/* Card item style */
+
+.shelf div img{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 4px solid white;
+}
+.shelf div h3{
+    font-size: 20px;
+    margin: 20px;
+    color:aliceblue;
+}
+.shelf div a{
+    font-size: 20px;
+    margin: 20px;
+    color:aliceblue;
+    background-color: #09521e;
+    border: 2px solid white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.shelf div li{
+    color: aliceblue;
+    
+}
+
+/* Card item style */
+
+/* hover */
+
+.shelf:hover .right_door{
+    right: -380px;
+    border-radius: 20px;
+    opacity: 0;
+}
+.shelf:hover .left_door{
+    left: -380px;
+    border-radius: 20px;
+    opacity: 0;
+}
+
+
+/* hover */
