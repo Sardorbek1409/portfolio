@@ -1,0 +1,3 @@
+npm --version (npm ning versiyasini ko'rish)
+npm init (package.json yuklab beradi)
+npx json-server db.json (json-serverni ishga tushiradi)
