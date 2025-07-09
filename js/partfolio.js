@@ -150,68 +150,25 @@ left_btn.onclick = () => {
 // My projects section actions end
 
 // Theme button function start
-// const section_info = document.querySelector(".section_info"),
-//     main_header = document.querySelector(".main_header"),
-//     theme_btn = document.querySelector(".theme_btn"),
-//     section_subtitle = document.querySelector(".section_subtitle"),
-//     menu = document.querySelector(".menu"),
-//     span = document.menu.querySelector("i");
-// let tbtn_n1 = 1;
-// theme_btn.onclick=()=>{
-//     tbtn_n1++;
-//     if(tbtn_n1%2==0){
-//         document.querySelector("body").style.backgroundColor = "#31363F"
-//         theme_btn.innerHTML=
-//         `
-//             <i class="fa-regular fa-sun"></i>
-//         `
-
-// main_header.style.cssText=
-// `
-//     background-color: rgba(121,121,121, 0.618);
-// `
-// theme_btn.textContent = "sun";
-// theme_btn.style.cssText=
-// `
-//     background-color: #FFD805;
-//     color: #000000;
-//     border: none;
-//     filter: drop-shadow(0px 0px 10px);
-// `
-// section_subtitle.style.cssText=
-// `
-//     color: white;
-// `
-// span.style.cssText=
-// `
-//     background-color: white;
-// `;
-// }
-// else{
-// document.querySelector("body").style.backgroundColor = "white"
-// main_header.style.cssText+=
-// `
-//     background-color: rgba(255,255,255, 0.618);
-// `
-// theme_btn.textContent = "moon"
-// theme_btn.style.cssText=
-// `
-//     background-color: #000000;
-//     color: #FFD805;
-//     border: none;
-//     filter: drop-shadow(0px 0px 10px);
-// `
-// section_subtitle.style.cssText+=
-// `
-//     color: #797979;
-// `
-// span.style.cssText+=
-// `
-//     background-color: black;
-// `;
-//     }
-// }
-// console.log(tbtn_n1);
+const theme_btn = document.querySelector('.theme_btn'),
+	containers = document.querySelectorAll('.container'),
+	footer = document.querySelector('footer')
+let themeBtn_t = true
+theme_btn.onclick = () => {
+	if (themeBtn_t === true) {
+		containers.forEach(container => {
+			container.style.backgroundColor = '#2c3e50'
+		})
+		footer.style.backgroundColor = 'grey'
+		themeBtn_t = false
+	} else {
+		containers.forEach(container => {
+			container.style.backgroundColor = 'white'
+		})
+		footer.style.backgroundColor = '#2c3e50'
+		themeBtn_t = true
+	}
+}
 
 // Theme button function end
 
