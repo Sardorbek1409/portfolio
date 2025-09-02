@@ -138,5 +138,5 @@
 	"workbench.statusBar.visible": false,
 	"terminal.integrated.fontFamily": "MesloLGS NF",
 	"window.zoomLevel": 1,
-	"liveServer.settings.port": 5502
+	"liveServer.settings.port": 5503
 }
